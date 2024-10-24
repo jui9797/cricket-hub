@@ -1,0 +1,8 @@
+.button{
+   color:#13131399;
+   border:'2px solid lightgray'
+}
+.active{
+    background-color: #E7FE29;
+    color:black;
+}
