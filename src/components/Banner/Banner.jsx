@@ -1,6 +1,7 @@
 import banner from '../../assets/assets/bg-shadow.png'
 import banner2 from '../../assets/assets/banner-main.png'
 
+
 const Banner = ({handleCoin}) => {
    
     return (
@@ -13,6 +14,7 @@ const Banner = ({handleCoin}) => {
           <br />
           <div className="border-[#E7FE29] border-2 rounded-xl">
           <button onClick={handleCoin} className="btn bg-[#E7FE29] p-1 m-1 lg:p-2 lg:m-2 rounded-xl">Claim Free Credit</button>
+          
           </div>
         </div>
     );

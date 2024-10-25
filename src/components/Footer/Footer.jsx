@@ -41,7 +41,7 @@ const Footer = () => {
     <hr className='border-b-1 border-zinc-600'/>
     <footer className="footer footer-center bg-[#06091A] text-base-content p-4">
     <aside>
-    <p className='text-[#FFFFFF99]'>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+    <p className='text-[#FFFFFF99]'>Copyright © {new Date().getFullYear()} - All right reserved by Six & Out</p>
     </aside>
     </footer>
         </div>

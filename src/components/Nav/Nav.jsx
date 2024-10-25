@@ -3,7 +3,7 @@ import { TbCoin } from "react-icons/tb";
 
 const Nav = ({coin}) => {
     return (
-        <div className="w-11/12 mx-auto">
+        <div className="w-11/12 sticky top-0 z-10 mx-auto">
            <div className="navbar bg-base-100">
   <div className="navbar-start flex-1">
     <div className="dropdown">

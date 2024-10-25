@@ -1,0 +1,107 @@
+[
+    {
+        "playerId": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/vQ0qcGt/Whats-App-Image-2024-10-25-at-13-32-11-23ae01df.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm medium",
+        "biddingPrice": 1500000,
+        "rating": 9.7
+    },
+    {
+        "playerId": 2,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/vx064g1/Whats-App-Image-2024-10-25-at-13-36-48-757dd62f.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm offbreak",
+        "biddingPrice":2500000,
+        "rating": 9.5
+    },
+    {
+        "playerId": 3,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/dgTFbsQ/IMG-20241025-WA0002.jpg",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast",
+        "biddingPrice": 1000000,
+        "rating": 5.5
+    },
+    {
+        "playerId": 4,
+        "name": "Jos Buttler",
+        "country": "England",
+        "image": "https://i.ibb.co.com/ySvWyNr/IMG-20241025-WA0003.jpg",
+        "role": "Wicketkeeper",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 5500000,
+        "rating": 4.5
+    },
+    {
+        "playerId": 5,
+        "name": "Kagiso Rabada",
+        "country": "South Africa",
+        "image": "https://i.ibb.co.com/FVSs0pL/IMG-20241025-WA0001.jpg",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast",
+        "biddingPrice": 1500000,
+        "rating": 8.5
+    },
+    {
+        "playerId": 6,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/DksD7dD/IMG-20241025-WA0005.jpg",
+        "role": "All-rounder",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Left-arm orthodox",
+        "biddingPrice": 1500000,
+        "rating": 8.5
+    },
+    {
+        "playerId": 7,
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/1L2Rm3b/IMG-20241025-WA0009.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm offbreak",
+        "biddingPrice": 2500000,
+        "rating": 9.5
+    },
+    {
+        "playerId": 8,
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/MS2v7RZ/IMG-20241025-WA0004.jpg",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Left-arm fast-medium",
+        "biddingPrice": 3500000,
+        "rating": 7.5
+    },
+    {
+        "playerId": 9,
+        "name": "Hardik Pandya",
+        "country": "India",
+        "image": "https://i.ibb.co.com/BByZN83/Whats-App-Image-2024-10-25-at-13-39-08-cf4f6ac1.jpg",
+        "role": "All-rounder",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast-medium",
+        "biddingPrice": 1500000,
+        "rating": 8.5
+    }
+]
+
+
+
+
+
+
