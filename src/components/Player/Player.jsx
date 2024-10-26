@@ -2,6 +2,7 @@ import './player.css'
 
 import { FaFlag } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
+import PropTypes from 'prop-types';
 
 
 const Player = ({player, handleSelacted }) => {
@@ -39,5 +40,10 @@ const Player = ({player, handleSelacted }) => {
         </div>
     );
 };
+
+Player.propTypes={
+  player:PropTypes.object.isRequired,
+  handleSelacted:PropTypes.func.isRequired
+}
 
 export default Player;

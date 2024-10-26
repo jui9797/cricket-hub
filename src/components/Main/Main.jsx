@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './Main.css'
 import Available from '../Available/Available';
 import Selected from '../Selected/Selected';
+import PropTypes from 'prop-types';
 
 const Main = ({handleSelacted, selectedData, handleRemove}) => {
     const [isActive, setIsActive] =useState(true)
@@ -23,5 +24,12 @@ const Main = ({handleSelacted, selectedData, handleRemove}) => {
         </div>
     );
 };
+
+
+Main.propTypes ={
+    handleSelacted:PropTypes.func.isRequired,
+    selectedData:PropTypes.array.isRequired,
+    handleRemove:PropTypes.func.isRequired
+}
 
 export default Main;

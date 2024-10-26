@@ -1,4 +1,5 @@
-import { RiDeleteBin6Line } from "react-icons/ri";
+import { MdOutlineDeleteForever } from "react-icons/md";
+import PropTypes from 'prop-types';
 
 const SingleSelect = ({select, handleRemove}) => {
     
@@ -18,7 +19,7 @@ const SingleSelect = ({select, handleRemove}) => {
             </div>
              {/*remove btn  */}
             <div>
-                <button onClick={()=>handleRemove(select.playerId)} className="text-2xl text-red-600"><RiDeleteBin6Line /></button>
+                <button onClick={()=>handleRemove(select.playerId)} className="text-2xl text-red-600"><MdOutlineDeleteForever /></button>
             </div>
            </div>
            
@@ -27,5 +28,10 @@ const SingleSelect = ({select, handleRemove}) => {
         </div>
     );
 };
+
+SingleSelect.propTypes ={
+    select: PropTypes.object.isRequired,
+    handleRemove: PropTypes.func.isRequired
+}
 
 export default SingleSelect;

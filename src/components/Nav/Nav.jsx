@@ -1,5 +1,6 @@
 import logo from '../../assets/assets/logo.png'
 import { TbCoin } from "react-icons/tb";
+import PropTypes from 'prop-types';
 
 const Nav = ({coin}) => {
     return (
@@ -47,5 +48,9 @@ const Nav = ({coin}) => {
         </div>
     );
 };
+
+Nav.propTypes={
+  coin:PropTypes.number.isRequired
+}
 
 export default Nav;

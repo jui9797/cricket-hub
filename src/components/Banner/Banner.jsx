@@ -20,4 +20,6 @@ const Banner = ({handleCoin}) => {
     );
 };
 
+
+
 export default Banner;

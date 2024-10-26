@@ -1,5 +1,5 @@
 import SingleSelect from "./SingleSelect";
-
+import PropTypes from 'prop-types';
 
 const Selected = ({selectedData, handleRemove, isActive, setIsActive}) => {
    
@@ -15,5 +15,12 @@ const Selected = ({selectedData, handleRemove, isActive, setIsActive}) => {
         </div>
     );
 };
+
+Selected.propTypes={
+    selectedData:PropTypes.array.isRequired,
+    handleRemove:PropTypes.func.isRequired,
+    isActive:PropTypes.bool.isRequired,
+    setIsActive:PropTypes.func.isRequired
+}
 
 export default Selected;
