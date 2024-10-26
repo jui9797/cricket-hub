@@ -6,7 +6,9 @@ import Main from './components/Main/Main'
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
 import Newletter from './components/Newsletter/Newletter'
-
+// toast import
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -17,18 +19,29 @@ function App() {
   
 
   const handleSelacted =player=>{
-    if(selectedData.length === 6){
-      return alert('remove')
+    if(selectedData.length == 6){
+      toast.error('you cannot buy more than 6 players')
      }
+
+    else if(coin <player.biddingPrice){
+      toast.error('Insufficient balance');
+       
+    }
+
+     else{
+
+     
     //check player 
     const checkPlayers =selectedData.find(checkPlayer =>checkPlayer.playerId === player.playerId)
     if(checkPlayers){
-     return alert('this player is already selected')
+     toast.error('Player already selected')
     }
     else{
       const newSelected =[...selectedData, player]
       setSelected(newSelected)
       // console.log(newSelected)
+      setCoin(coin- player.biddingPrice)
+      toast.success(`Congrates !! ${player.name} is now in your squad `)
     }
 
     
@@ -36,26 +49,21 @@ function App() {
     
     
     
-    
-    if(coin <player.biddingPrice){
-      alert('insufficent balance')
-       
-    }
-    else{
-      setCoin(coin- player.biddingPrice)
-    }
+  }
   }
   // remove player from selected players
   const handleRemove=player=>{
    const remainingPlayer =selectedData.filter((data) =>data.playerId !== player)
    setSelected(remainingPlayer)
+   toast.error('Player removed')
    
     
   }
 
   const handleCoin =()=>{
     setCoin(coin+60000000);
-    alert('credits added to your account')
+    toast.success('Credit added to your account')
+    
     // console.log(coin)
     
   }
@@ -83,6 +91,8 @@ function App() {
 
      {/* footer */}
       <Footer></Footer>
+      {/* toast container */}
+      <ToastContainer position="top-center" />
     </>
   )
 }
